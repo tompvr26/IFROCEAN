@@ -3,18 +3,32 @@
 
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Salut {{ controller_name }}! ✅</h1>
+<section class="etudes">
+    <etude>
+        <h2>Titre de l'étude</h2>
+        <div class="metadata">Modifié le 06/04/2020 à 14:00 sur la plage de la Baule</div>
+        <div class="content"><img src="" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, et.</p>
+            <p>Culpa cumque enim facere nulla officia porro quibusdam sapiente unde?</p>
+            <a href="#" class="btn btn-primary">Voir la suite</a></div>
+    </etude>
+    <etude>
+        <h2>Titre de l'étude</h2>
+        <div class="metadata">Modifié le 06/04/2020 à 14:00 sur la plage de la Baule</div>
+        <div class="content"><img src="" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nisi!</p>
+            <p>Alias cumque, debitis ipsam labore nulla sapiente temporibus unde veritatis?</p>
+            <a href="#" class="btn btn-primary">Voir la suite</a></div>
+    </etude>
+    <etude>
+        <h2>Titre de l'étude</h2>
+        <div class="metadata">Modifié le 06/04/2020 à 14:00 sur la plage de la Baule</div>
+        <div class="content"><img src="" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nihil!</p>
+            <p>Consectetur cupiditate facilis inventore ipsa libero nam, praesentium quidem similique.</p>
+            <a href="#" class="btn btn-primary">Voir la suite</a></div>
+    </etude>
+</section>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'D:/EPSI/B2/-- PROJ TRANS SYMFONY --/code/IFROCEAN/src/Controller/AccueilController.php'|file_link(0) }}">src/Controller/AccueilController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'D:/EPSI/B2/-- PROJ TRANS SYMFONY --/code/IFROCEAN/templates/accueil/index.html.twig'|file_link(0) }}">templates/accueil/index.html.twig</a></code></li>
-    </ul>
-</div>
 {% endblock %}
